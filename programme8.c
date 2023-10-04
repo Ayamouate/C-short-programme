@@ -44,15 +44,15 @@ int main()
     int jour1, mois1, annee1;
     int jour2, mois2, annee2;
 
-    printf("Entrez la premi�re date (jj/mm/aaaa) : ");
+    printf("Entrez la premiere date (jj/mm/aaaa) : ");
     scanf("%d/%d/%d", &jour1, &mois1, &annee1);
 
-    printf("Entrez la deuxi�me date (jj/mm/aaaa) : ");
+    printf("Entrez la deuxieme date (jj/mm/aaaa) : ");
     scanf("%d/%d/%d", &jour2, &mois2, &annee2);
 
     int nbJours = CalculerNombreDeJours(jour1, mois1, jour2, mois2, annee1);
 
-    printf("Le nombre de jours de diff�rence entre les deux dates est : %d\n", nbJours);
+    printf("Le nombre de jours de difference entre les deux dates est : %d\n", nbJours);
 
     return 0;
 }
