@@ -1,5 +1,5 @@
+/*un programme qui permet d'exprimer un nombre de secondes saisi par l’utilisateur en heures, en minutes et en secondes.*/
 #include <stdio.h>
-
 int main()
 {
     int h,m,s;
