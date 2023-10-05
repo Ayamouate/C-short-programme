@@ -1,3 +1,5 @@
+/*programme determine Le nombre de jours de difference entre les deux dates donner*/
+
 #include <stdio.h>
 
 int EstAnneeBissextile(int annee)
@@ -32,6 +34,10 @@ int CalculerNombreDeJours(int jour1, int mois1, int jour2, int mois2, int annee)
         for (int i = mois1 + 1; i < mois2; i++) {
             nbJours += NombreDeJoursMois(i, annee);
         }
+        // Adjust for leap years if mois1 in February
+        if (mois1 == 2 && EstAnneeBissextile(annee)) {
+        nbJours += 1;
+    }
 
         nbJours += jour2;
     }
