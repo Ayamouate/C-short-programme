@@ -1,7 +1,7 @@
-/*Notre jeu consiste `a deviner un nombre tir ́e au hasard entre 1 et 100 par l’ordinateur.
-Vous aurez jusqu’`a 10 tentatives pour trouver cette valeur. Chaque fois que vous entrez une
-valeur vous aurez une indication comme quoi votre valeur est sup ́erieure ou inf ́erieure `a celle
-tir ́ee au hasard par l’ordinateur.*/
+/*Notre jeu consiste a deviner un nombre tir ́e au hasard entre 1 et 100 par l’ordinateur.
+Vous aurez jusqu’a 10 tentatives pour trouver cette valeur. Chaque fois que vous entrez une
+valeur vous aurez une indication comme quoi votre valeur est superieure ou inferieure a celle
+tiree au hasard par l’ordinateur.*/
 #include<stdio.h>
 #include<time.h>
 
